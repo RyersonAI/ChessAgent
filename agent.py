@@ -4,7 +4,7 @@ from . import tfprocess
 from collections import OrderedDict
 
 
-class KerasNet:
+class Agent:
 
     def __init__(self, model_file="Agent/128x10-t60-2-5300.pb.gz", cfg_file="Agent/configs/example.yaml"):
 
